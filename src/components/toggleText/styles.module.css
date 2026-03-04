@@ -1,0 +1,44 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 8px;
+  width: 140px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.textBlock {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition-property: max-height, opacity;
+  transition-timing-function: ease;
+}
+
+.open {
+  max-height: 300px;
+  opacity: 1;
+}
